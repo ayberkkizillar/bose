@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+  .linear-right-one {
+    display: none;
+  }
+  .linear-right-two {
+    display: none;
+  }
+  .info-top {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .info-top-left {
+    margin: 60px auto;
+  }
+  .info-top-right {
+    margin: 60px auto;
+  }
+  .top-gallery-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
